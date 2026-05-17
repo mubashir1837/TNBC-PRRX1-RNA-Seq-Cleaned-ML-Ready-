@@ -1,0 +1,34 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw and Heavy Biological Data (Should be downloaded via GEO/Kaggle)
+GSE202769_TNBC_Cell_line_PRRX1_OE_RNAseq_Gene_Counts.csv
+
+# Kaggle Staging Upload Directories
+kaggle_upload/
+
+# Credentials and Access Tokens
+.kaggle/
+access_token
+kaggle.json
+
+# IDE and Editor Specific Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
